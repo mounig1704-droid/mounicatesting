@@ -20,3 +20,4 @@ def read_link_without_junction_prefix(path: str) -> str:
     if target.startswith("\\\\?\\"):  # \\?\, with escaped slashes
         target = target[4:]
     return target
+    bhnjkol
